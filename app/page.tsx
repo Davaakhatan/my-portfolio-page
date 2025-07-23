@@ -97,7 +97,7 @@ export default function Home() {
               <span className="sr-only">Resume</span>
             </Link>
           </div>
-          <p className="text-zinc-500 text-sm mt-6 text-center lg:text-left">© {new Date().getFullYear()} Your Name</p>
+          <p className="text-zinc-500 text-sm mt-6 text-center lg:text-left">© {new Date().getFullYear()} Dave</p>
         </div>
 
         {/* Page indicators */}
@@ -129,11 +129,13 @@ export default function Home() {
               <div
                 className="absolute inset-0 opacity-20"
                 style={{
-                  backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+                  backgroundImage: "url('/Assets/background.jpeg')",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
                 }}
               ></div>
+
             </div>
 
             <div className="relative z-10 flex flex-col justify-center items-center h-full p-8 text-center">

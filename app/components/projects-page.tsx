@@ -9,7 +9,7 @@ export default function ProjectsPage() {
       title: "Kafka & Zookeeper Automation",
       description:
         "Automated Kafka and Zookeeper provisioning using vRA and custom scripts at Khan Bank, enabling scalable and resilient microservice architecture.",
-      image: "/projects/kafka.jpg",
+      image: "/Assets/kafkaproject.png",
       tags: ["Terraform", "vRA", "Kafka", "Zookeeper", "CI/CD", "Ansible"],
       liveUrl: null,
       githubUrl: null,
