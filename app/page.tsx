@@ -115,7 +115,7 @@ export default function Home() {
       </aside>
 
       {/* Main Content with Smooth Transitions */}
-      <main className="flex-1 relative overflow-hidden">
+      <main className="flex-1 relative overflow-hidden h-screen">
         <div
           className="relative w-full h-full"
           style={{
